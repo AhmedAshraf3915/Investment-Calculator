@@ -10,6 +10,7 @@ export default function UserInput({ label, onChange }) {
         onChange={(e) => {
           onChange(e.target.value ?? "");
         }}
+        min={1}
       />
     </div>
   );
